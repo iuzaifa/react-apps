@@ -5,13 +5,18 @@ import Button from '../components/Button';
 import { useToggle } from '../hooks/useToggle';
 import { menuItems, contactInfo } from '../data/menuItems';
 import { cn } from '../utils/cn';
+import { useNavigate } from 'react-router-dom';
+
 
 
 const MobileMenu = ({ isOpen }) => {
     const [activeDropdown, { toggle: toggleDropdown }] = useToggle();
 
+   
+    const navigate = useNavigate();
+
     const handleMenuClick = (href) => {
-        console.log('Navigate to:', href);
+        navigate(href);
     };
 
     return (
