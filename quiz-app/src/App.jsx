@@ -3,6 +3,7 @@ import './App.css'
 import WelcomeCard from './components/WelcomeCard'
 import QuizComponent from './components/QuizComponent'
 import ResultCard from './components/ResultCard'
+import SocialLinks from './components/SocialLinks'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
   return (
     <>
       <div className="container py-5">
+        <SocialLinks/>
         {showScreen === 'welcome' && (
           <WelcomeCard {...{ showScreen, setShowScreen }} />
         )}
