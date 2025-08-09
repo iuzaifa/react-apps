@@ -1,15 +1,77 @@
-# React + Vite
+# Quiz App = Screenshot
+![Quiz App Screenshot](./public/q1.png)
+![Quiz App Screenshot](./public/q2.png)
+![Quiz App Screenshot](./public/q3.png)
+![Quiz App Screenshot](./public/q4.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+A simple and interactive Quiz Application built with **React + Vite**, styled with **Bootstrap 5.3.7**, and enhanced with **React Icons**.
+It allows users to answer multiple-choice questions, navigate between them, and view their final score with a dynamic pass/fail indicator.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Multiple Choice Questions with single correct answer
+* Previous / Next Navigation
+* Score Calculation with dynamic color:
 
-- React + Vite
-- bootstrap@5.3.7 
+  * Green if passing
+  * Red if failing
+* Bootstrap Styling for responsive and clean UI
+* Social Links using [React Icons](https://react-icons.github.io/react-icons/) (`FaLinkedin`, `FaGithub`)
+
+---
+
+## Tech Stack
+
+* **Frontend Framework:** [React](https://react.dev/) with [Vite](https://vitejs.dev/)
+* **Styling:** [Bootstrap 5.3.7](https://getbootstrap.com/)
+* **Icons:** [React Icons](https://react-icons.github.io/react-icons/)
+
+---
+
+## Installation
+
+1. **Clone the repository**
+
+   ```bash
+   git clone git@github.com:iuzaifa/react-apps.git
+   cd quiz-app
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production**
+
+   ```bash
+   npm run build
+   ```
+
+> Please delete all other folders and keep only the Quiz App folder.
+
+---
+
+
+## Connect with Me
+
+* [LinkedIn](https://www.linkedin.com/in/iiuzaifa/)
+* [GitHub](https://github.com/iuzaifa)
+* [Email](httpsmailto:abuhuzaifaw7@gmail.com)
+* [Leetcode](https://leetcode.com/u/abuhuzaiifa/)
+---
+
+## License
+
+This project is licensed under the — feel free to modify and use it.
+
